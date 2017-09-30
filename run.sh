@@ -4,7 +4,7 @@ docker run \
 	--rm \
 	-p 8889:8889 \
 	-d \
-	--name=conda \
+	--name=conda3 \
 	hugh/conda3
 
 docker logs conda -f

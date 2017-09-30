@@ -7,5 +7,5 @@ docker run \
 	--name=conda3 \
 	hugh/conda3
 
-docker logs conda -f
+docker logs conda3 -f
 #xdg-open http://localhost:8888

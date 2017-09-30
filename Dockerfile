@@ -14,4 +14,4 @@ RUN \
 # 	pip install altair
 EXPOSE 8889
 
-CMD ["/bin/bash","-c","/opt/conda/bin/jupyter notebook --notebook-dir=/opt/notebooks --ip='*' --port=8888 --no-browser --allow-root"]
+CMD ["/bin/bash","-c","/opt/conda/bin/jupyter notebook --notebook-dir=/opt/notebooks --ip='*' --port=8889 --no-browser --allow-root"]

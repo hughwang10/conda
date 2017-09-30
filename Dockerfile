@@ -1,4 +1,4 @@
-FROM continuumio/anaconda
+FROM continuumio/anaconda3
 
 RUN apt-get update --fix-missing && \
 	apt-get upgrade -y
